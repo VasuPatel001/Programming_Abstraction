@@ -1,0 +1,32 @@
+Q1:
+Huffman coding for aabbbbcc is as follows: 
+Note: characters indicated in () and weight indicated in {}
+	(){9}
+       /   \ 
+   (b){4}  (){5}
+           /  \
+       (a){2}   (c){3}
+
+
+Q2:
+Decoded string: CARACARA
+
+
+Q3:
+Enocded bit: 01111001100011010111100
+
+
+Q4:
+Queue<Bit>: 110011000
+Queue<char>: OEAPH
+
+
+Q5:
+	()
+       /   \ 
+      ()    ()
+     /  \   /  \
+   ()  (C) (L) (V)
+  /  \
+(M)  (D)
+

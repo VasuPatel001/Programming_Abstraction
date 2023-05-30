@@ -1,0 +1,23 @@
+Q1:
+First is the employee's likelihood to select a given shift by quantifying/ranking in linear scale(1-5). (Where 1 being least likely and 5 being most likely)
+Second is employer's preference towards a shift by quantifying/ranking in linear scale (1-5).
+This data can be gathered by conducting a survey with employee and employer.
+
+
+Q2:
+Earlier condition to select a shift: if ((! isOverlapWith(shift, selected)) && (usedHours + lengthOf(shift) <= totalHours))
+
+Modified condition to select a shift: if ((! isOverlapWith(shift, selected)) && (usedHours + lengthOf(shift) <= totalHours) && ((employeePreference * employerPreference) > 15))
+
+
+
+Q3:
+Ranking from best to worst:
+Schedule 2, 1, 3
+I choose this order because, I used weighted approach to identify shift's value by following formula:
+employee preference * employer preference.
+Hence, schedule 2 has 9 value associated with it, followed by shift 1 & 3 having same of 8. However, I preferred a shift with high employee's preference.
+
+
+
+

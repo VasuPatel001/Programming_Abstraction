@@ -1,0 +1,114 @@
+Q1:
+macOS
+
+
+Q2:	
+Here are the values stored in index [3], [4], [5] of elems:
+
+		elems	<10 items>	DataPoint*
+			[3]	@0x60000391d288	DataPoint
+				_initializationFlag	105553162420992	uint64_t
+				name	""	std::string
+				weight	0.0	double
+			[4]	@0x60000391d2b0	DataPoint
+				_initializationFlag	0	uint64_t
+				name	""	std::string
+				weight	0.0	double
+			[5]	@0x60000391d2d8	DataPoint
+				_initializationFlag	0	uint64_t
+				name	""	std::string
+				weight	6.95173672160446e-310	double
+
+
+
+Q3:
+Example 1:Handout example:
+          Ashley
+            101
+        /        \
+      Amy       Anna
+      103        110
+    /     
+Luna    
+ 161      
+
+
+Example 2: Explore who likes which CS courses :)
+          Keith
+           106
+        /       \
+     Neel        Josh
+     110      	 107
+   /     \ 	  /
+Vasu   Dhvaneel  Andrew Ng
+ 231     161	   229
+
+
+Example 3: Explore country codes :)
+             	US
+          	1
+        	   /   		\
+         India        Austria
+          91      	43
+       /    \	      / 	    \
+Bolivia   Bulgaria  China	    Cuba
+ 591       359 	    86	     53
+
+
+
+
+
+Q4:
+           T
+           1
+         /    \
+       B       G
+       3       2
+      /  \    /  \ 
+     S    A   V   R
+     6    5   9   4
+   /  \
+   O   K	
+   8   7 
+
+
+Q5:
+           G
+           2
+         /    \
+       B       R
+       3       4
+      /  \    /  \ 
+     S    A   V   K
+     6    5   9   7
+    / 
+   O
+   8 
+
+
+Q6:
+Name(Weight):	Unused	G(2)	B(3)	R(4)	S(6)	A(5)	V(9)	K(7)	O(8)
+Index:		 0	1 	2	3	4	5	6	7	8	
+
+
+Q7:
+Baseline result for 2020.csv: NY: 26 seats & MN: 8 seats
+
+Yes, New York received 1 more seat (total 27 seats) & MN received 1 less seat (total 7 seats) as compared to baseline results;
+if 89 people were added to NY.
+
+
+Q8:
+Baseline result for 2020.csv: NY: 26 seats & MN: 8 seats
+
+Yes, New York received 1 more seat (total 27 seats) & MN received 1 less seat (total 7 seats) as compared to baseline results;
+if 26 people were removed from MN.
+
+
+
+
+
+
+
+
+

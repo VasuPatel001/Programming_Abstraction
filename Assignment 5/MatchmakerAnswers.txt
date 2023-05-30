@@ -1,0 +1,13 @@
+Q1:
+When doubling the input size by a factor of 2, runtime increases by a factor of ~7.7 times. Hence the big-O runtime for fastMaxWegithMatching is  O(n^3). 
+
+
+
+Q2:
+From the big-O runtime perspective: for 5000 datapoints (10 times for n=500), it would take around ~64,000,000 ms.
+Expected runtime with reference to runtime data observed, I expect ~56,400,000ms for pairing 5000 people.
+
+
+
+Q3:
+In a day (24*3600*1000 ms), fastMaxWeightMatching will be able to pair nearly 5,525 data points. Runtime increase following a cubic growth rate: since time for 1 day is nearly 1350 times (64,018 ms), cube root of 1350 is nearly 11.05. Hence, in a day 11.05 X 500 = ~5250 data points can be paired.

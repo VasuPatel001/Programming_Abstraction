@@ -1,0 +1,17 @@
+Q1:
+Yes, criteria of reducing the wrongful denial should have been included in optimization algorithm regardless of whether it was included in the contract. This is because, if more cases gets denied before entering the system, there's a bias in the system which gets to process only a limited number of cases and hence the higher efficiency reported will look great in numbers and reports, but deep down the system would be void in implementation benefits. Hence, I would consider an optimization algorithm which reduces the number of wrongful denials.
+
+Reducing the wait time is the essence of improved efficiency of the system. Because longer wait times tends to have higher cycle times and low throughput of the system. Hence, I would include reducing wait times for improving system's efficiency.
+
+
+
+Q2:
+I would consider following goals when designing IBM's software for Indiana's welfare case management:
+1. Filter out legitimate applicants for welfare using provided guidelines from government policy, this will help reduce wrongful denial of applicants and help increase citizens' trust on the system.
+2. Improve the efficiency of the system by identifying bottlenecks in welfare case management. This will help reduce the wait times for an applicant to know results about his/her application. Systematic identification of bottlenecks and prioritizing them on the basis of computation times, cost will help improve efficiency. 
+3. Find ways to reduce the cost of the system once above goals have been met to deliver the maximum value to the customer.
+
+I would apply Algorithmic analysis of Big-O runtime at step 2, when I'm working on reducing the wait times. Applying Big-O runtime analysis at Step 2 helps prevent severe negative impacts on user by reducing the number of wrongful denials of the cases.
+
+
+

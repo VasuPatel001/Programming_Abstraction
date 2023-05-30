@@ -1,0 +1,42 @@
+Q1:
+Successful lookup time gap between Robin Hood and Linear Probing remains negligible throughout entire range of load factor. Since Robin Hood hashing stores elements fairly according to their distance from home, the variance of the entire table reduces but somehow the overall mean of element's distance is more than linear probing. 
+
+
+Q2:
+Unsuccessful lookup time gap increases between Robin Hood and Linear Probing with increasing load factor. Robin Hood hash table is way more faster than Linear Probing by order of nearly 24-25 times.
+Reason is contains() of Robin Hood has to check only until distance of elem from hashOfElem index is lower than elems[I]. Robin Hood stop looking as soon as distance of elem > elems[i].
+
+Q3:
+Successful insertion time gap increases between Robin Hood and Linear Probing with increasing load factor. 
+Robin Hood takes more time (at the worst by a factor of 2) in making a successful insertion than Linear Probing. 
+Reason behind Robin Hood needing more time to make a successful insertion is the requirement of displacing an existing slot in the array when new slot to be added is at a greater distance than one existing in array. Because of this reason, there's a bit of overhead for Robin Hood when making a successful insertion.
+
+
+Q4:
+Unsuccessful insertion time gap between Robin Hood and Linear Probing remains negligible for low value of load factor, and for higher value of load factors time gap increases drastically. 
+Robin Hood takes nearly half the time than Linear Probing at high load factor of 0.97. 
+Reason is contains() of Robin Hood has to check only until distance of elem from hashOfElem index is lower than elems[I]. Robin Hood stop looking as soon as distance of elem > elems[i]. 
+
+
+Q5:
+Successful deletion time gap between Robin Hood and Linear Probing steadily increases with increase in load factor value. 
+Robin Hood takes more time (at the worst 1.8 times for load factor = 0.97) for making a successful deletion than Linear Probing.
+Reason is Robin Hood needs to carry out backward shifting when a deletion is made, however Linear Probing simply places a tombstone in the deleted place. Hence, this accounts for the extra overhead in Robin Hood method.
+
+
+Q6:
+Unsuccessful deletion time gap between Robin Hood and Linear Probing increases drastically with increase in load factor.
+Robin Hood takes less time (nearly 35 times for load factor = 0.97) for making an unsuccessful deletion than Linear Probing.
+For making an unsuccessful deletion, first hash table needs to find if that element is contained. Since contains() of Robin Hood has to check only until the distance of elem from hashOfElem index is lower than elems[i]. Robin Hood stop looking as soon as distance of elem > elems[i].
+
+
+Q7:
+OPTION 1: For load factor of 0.01, it makes much more sense to use Linear Probing (between Linear Probing & Robin Hood hash). Following are the reasons to choose Linear Probing:
+1. Difference in successful insertion: since Robin Hood carries out displacing of elements and would add unnecessary overhead.
+2. Benefit of reduced time for looking an element in Robin Hood is negligible when load factor is 0.01.
+3. For deleting an element, Robin Hood would add the unnecessary overhead of backward shifting.
+
+OPTION 2: For 0.01 load factor, if given choice between chain hashing, linear probing and Robin Hood: I would choose chain hashing because chain hashing is O(n) and there would be less number of elements to work with.
+
+Q8:
+Robin Hood hash table is recommended for load factor >= 0.8 because the benefits of Robin Hood hash table begins to overweighs the cost of displacing elements during insertion and backward shifting when deleting an element. 

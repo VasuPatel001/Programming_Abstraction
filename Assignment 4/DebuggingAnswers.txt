@@ -1,0 +1,36 @@
+Put your answers to the debugging questions from Problem One in this file.
+
+Q1:
+finish: 'C' 67
+numDisks 5 
+start: 'A' 65
+temp: 'B' 66
+totalMoves: 3
+
+
+Q2:
+"solveTowersOfHanoi" was called by "makeTheMagicHappen()" function located in "TowersOfHanoiGUI.cpp" file.
+
+
+Q3:
+31 total moves were required to solve the instance of Towers of Hanoi.
+
+
+Q4:
+15 moves were made inside the first moveTower call after stepping over its first recursive sub-call.
+
+
+Q5:
+"ab" (string made up of any two characters) is the smallest possible input that triggers the bug in the Permutations.cpp
+
+
+Q6:
+Equal to (=) sign in chosen += ch is the one-character error in the program.
+
+
+Q7:
+With the following code: "chosen += ch", the chosen parameter gets updated and retains the "chosen" value from previous sub-recursive call.
+
+For instance, when I entered "ab" as str: after executing the first sub-recursive call with remaining = "b" and ch = 'a', chosen becomes 'a'. 
+
+This chosen's updated value is retained with 'a' when executing second sub-recursive call with remaining = "a", ch = 'b'. Hence, 2nd sub-recursive call parameters are: "a", "ab" (since chosen += ch is 'a' + 'b').

@@ -1,0 +1,23 @@
+Q1: 
+Misidentification of the language will have adverse effect in generating auto-caption from one language to other. It is pertinent to have accurate language prediction model during a national coverage news or important public meeting. In addition, language translation (e.g. google translate) can be misleading when trying to convert a piece of text from one to other language.
+
+
+Q2: 
+Testing Plan A: Test language prediction model on different dialects of the language having similar trigrams. 
+Testing Plan B. For the language whose contemporary text is not available easily, an attempt to generate the text should be made.  
+
+
+Q3:
+Testing Plan A: This will be able to accurately cover dialects of language having similar trigrams than testing plan B.
+Testing Plan B: This plan will be able to cover broader extant of languages for which the text is not easily available.
+
+
+Q4:
+I would choose testing plan A, because this will help solve minute differences in dialects of a language.
+
+
+Q5:
+By testing the model on as many languages as possible with more than 95% accuracy would be good to release it to mass audience. Regarding its limitation and capacity, I would communicate the model to be a learning piece of algorithm as most of the AI/ML models are data hungry and their performance improves with increase in the database. Using this approach, the model would be improved over the time it finds difficulty in predicting certain languages which it might not been exposed to.
+
+
+
